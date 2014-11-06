@@ -5,4 +5,11 @@ Cómo configurar proyecto todoweb
 2.- Crear servidor. Dentro de la perspectiva JEE ir a la vista Servers -> New Server -> Apache Tomcat 8. Especificar carpeta donde descomprimió el tomcat
 3.- Asociar proyecto al tomcat. Clic derecho sobre el servidor y seleccionar "Add and remove projects". Añadir proyecto.
 4.- Configurar realm. Buscar el fichero tomcat-users.xml dentro de la carpeta Servers y añadir:
-	
+  <role rolename="ADMIN"/>
+  <role rolename="USER"/>
+  <user username="admin" password="admin" roles="ADMIN"/>
+  <user username="user1" password="user1" roles="USER"/>
+  <user username="user2" password="user2" roles="ADMIN, USER"/>
+5.- Iniciar servidor
+6.- Ejecutar en el navegador:
+	http://localhost:8080/todoweb/
