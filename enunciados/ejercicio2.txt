@@ -1,0 +1,7 @@
+Ejercicio 2 - Configuración de form
+===========
+
+1.- Agregar formulario de login específico
+2.- Agregar página de error específica 
+2.- Cambiar enlace de cerrar sesión por logout y validar!
+3.- Agregar opción de remember-me 

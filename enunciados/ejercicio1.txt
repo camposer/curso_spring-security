@@ -1,5 +1,5 @@
-Autenticación básica
-====================
+Ejercicio1 - Autenticación básica
+==========
 
 1.- Incluir dependencias en el POM
 2.- Añadir filtro al web.xml

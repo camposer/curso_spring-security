@@ -12,6 +12,7 @@
 	</properties>
 
 	<dependencies>
+		<!-- Spring CORE y MVC -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
@@ -28,6 +29,7 @@
 			<version>${spring.version}</version>
 		</dependency>
 
+		<!-- Spring Security -->
 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-core</artifactId>
