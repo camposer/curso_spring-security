@@ -1,0 +1,8 @@
+Cómo configurar proyecto todoweb
+================================
+
+1.- Importar proyecto al eclipse
+2.- Crear servidor. Dentro de la perspectiva JEE ir a la vista Servers -> New Server -> Apache Tomcat 8. Especificar carpeta donde descomprimió el tomcat
+3.- Asociar proyecto al tomcat. Clic derecho sobre el servidor y seleccionar "Add and remove projects". Añadir proyecto.
+4.- Configurar realm. Buscar el fichero tomcat-users.xml dentro de la carpeta Servers y añadir:
+	
