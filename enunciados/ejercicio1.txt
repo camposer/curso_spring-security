@@ -1,0 +1,9 @@
+Autenticación básica
+====================
+
+1.- Incluir dependencias en el POM
+2.- Añadir filtro al web.xml
+3.- Añadir fichero de configuración y utilizar authenticationManager con tres usuarios (user service):
+	admin (ADMIN)
+	user1 (USER)
+	user2 (ADMIN, USER)
