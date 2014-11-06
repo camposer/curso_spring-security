@@ -10,3 +10,16 @@ JRE_HOME\lib\security\java.policy
 permission java.net.SocketPermission "localhost:1527", "listen,resolve";
 
 4.- Ejecutar: DERBY_HOME\bin\startNetworkServer.bat
+
+---
+
+Para conectarse al derby desde el Eclipse
+
+1.- Dentro de la perspectiva JEE ir a la vista Datasource Explorer
+2.- Clic derecho sobre conexiones y seleccionar "New database conection"
+3.- Seleccionar Derby (colocar un nombre)
+4.- Agregar un driver. Seleccionar Derby Client (última versión) y reemplazar el JAR (ver pestaña) preexistente por el siguiente: DERBY_HOME\lib\derbyclient.jar
+5.- Agregar los siguientes parámetros de configuración:
+	Nombre BD: tododb
+	Usuario: user
+	Contraseña: 123
