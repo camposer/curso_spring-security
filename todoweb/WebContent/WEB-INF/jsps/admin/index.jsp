@@ -10,7 +10,7 @@
 	<h1>Gestión de tareas</h1>
 	<div>Aquí va la gestión de tareas...</div>
 	
-	<% if (request.isUserInRole("USER")) { %>
+	<% if (request.isUserInRole("ROLE_USER")) { %>
 	<div>Este mensaje sólo lo pueden ver los también USER</div>
 	<% } %>
 	
