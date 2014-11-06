@@ -20,6 +20,9 @@
 			<div>${t.status}</div>		
 		</div>
 	</c:forEach>
-	<a href="admin/index.do">Ir a admin</a>
+	<hr>
+	<a href="admin/index.do">Ir a admin</a>&nbsp;
+	<a href="../sesion/cerrar.do">Cerrar sesión</a>
+	
 </body>
 </html>

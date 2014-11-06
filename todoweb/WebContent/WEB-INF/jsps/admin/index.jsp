@@ -14,7 +14,7 @@
 	<div>Este mensaje sólo lo pueden ver los también USER</div>
 	<% } %>
 	
-	<a href="../sesion/cerrar.do">Cerrar sesión</a>&nbsp;
+	<hr>
 	<a href="../index.do">Atrás</a>
 </body>
 </html>

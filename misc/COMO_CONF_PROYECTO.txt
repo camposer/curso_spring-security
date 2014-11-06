@@ -13,3 +13,4 @@ Cómo configurar proyecto todoweb
 5.- Iniciar servidor
 6.- Ejecutar en el navegador:
 	http://localhost:8080/todoweb/
+7.- Probar app y jugar con los roles!!
