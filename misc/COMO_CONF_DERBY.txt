@@ -1,0 +1,12 @@
+Cómo configurar Derby
+=====================
+
+1.- Descargar el Derby
+2.- Descomprimir
+3.- Configurar políticas de seguridad del JRE. 
+Agregar la siguiente línea dentro del grant general al archivo 
+JRE_HOME\lib\security\java.policy 
+
+permission java.net.SocketPermission "localhost:1527", "listen,resolve";
+
+4.- Ejecutar: DERBY_HOME\bin\startNetworkServer.bat

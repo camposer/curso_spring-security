@@ -35,4 +35,10 @@ public class TodoController {
 		sesion.invalidate();
 		return "redirect:/index.do";
 	}
+	
+	@RequestMapping("/login")
+	public String login() {
+		return "/WEB-INF/jsps/login.jsp";
+	}
+	
 }

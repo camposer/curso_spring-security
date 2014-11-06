@@ -22,7 +22,8 @@
 	</c:forEach>
 	<hr>
 	<a href="admin/index.do">Ir a admin</a>&nbsp;
-	<a href="sesion/cerrar.do">Cerrar sesión</a>
+	<a href="sesion/cerrar.do">Cerrar sesión</a>&nbsp;
+	<a href="logout">Logout</a>
 	
 </body>
 </html>

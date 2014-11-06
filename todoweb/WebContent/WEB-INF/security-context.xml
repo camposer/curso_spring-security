@@ -8,16 +8,20 @@
 
 
 	<http auto-config="true">
-		<intercept-url pattern="/admin/**" access="ROLE_ADMIN"/>
+		<!-- intercept-url pattern="/admin/**" access="ROLE_ADMIN,IS_AUTHENTICATED_FULLY" /-->
+		<intercept-url pattern="/admin/**" access="ROLE_ADMIN" />
+		<form-login login-page="/login.do" default-target-url="/index.do"/>
+		<logout logout-url="/logout" logout-success-url="/index.do" />
+		<remember-me key="authkey"/>
 	</http>
-	
+
 	<authentication-manager alias="authenticationManager">
 		<authentication-provider>
 			<user-service>
-				<user authorities="ROLE_ADMIN" name="admin" password="admin"/>
-				<user authorities="ROLE_USER" name="user1" password="user1"/>
-				<user authorities="ROLE_ADMIN,ROLE_USER" name="user2" password="user2"/>
-			</user-service>		
+				<user authorities="ROLE_ADMIN" name="admin" password="admin" />
+				<user authorities="ROLE_USER" name="user1" password="user1" />
+				<user authorities="ROLE_ADMIN,ROLE_USER" name="user2" password="user2" />
+			</user-service>
 		</authentication-provider>
 	</authentication-manager>
 </beans:beans>
