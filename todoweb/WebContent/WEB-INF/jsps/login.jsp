@@ -21,6 +21,9 @@
 		Usuario: <input type="text" name="j_username" /><br /> 
 		Contraseña: <input type="text" name="j_password" /><br />
 		Recuérdame: <input type="checkbox" name="_spring_security_remember_me"/>
+	    <input type="hidden"                        
+	        name="${_csrf.parameterName}"
+	        value="${_csrf.token}"/>		
 		<input type="submit" value="Entrar" />
 	</form>
 </body>
