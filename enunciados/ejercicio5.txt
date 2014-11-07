@@ -1,0 +1,13 @@
+Ejercicio 5
+===========
+
+Filtros de seguridad adicionales de Spring Security
+
+Referencias:
+- http://docs.spring.io/spring-security/site/docs/4.0.0.M2/reference/htmlsingle/#csrf
+- http://docs.spring.io/spring-security/site/docs/4.0.0.M2/reference/htmlsingle/#headers
+- http://docs.spring.io/spring-security/site/docs/4.0.0.M2/reference/htmlsingle/#session-mgmt
+
+Añadir los filtros de CSRF y Headers (sólo HSTS y CACHE-CONTROL). Verificar el comportamiento, sobre todo del login (ver parámetros CSRF).
+
+Utilizar la consola de depuración del navegador y validar los parámetros que incluye en la cabecera. Ver los ejemplos de cada uno de los ataques, la intención de esto es, más que aprender a configurar Spring Security, reconocer los diferentes tipos de ataques a los que estamos expuestos.

@@ -18,6 +18,9 @@
 		<form-login login-page="/login.do" default-target-url="/index.do"/>
 		<logout logout-url="/logout" logout-success-url="/index.do" />
 		<remember-me key="authkey"/>
+		
+		<csrf/>
+		<headers/>
 	</http>
 
 	<authentication-manager alias="authenticationManager">
