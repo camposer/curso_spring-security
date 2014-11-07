@@ -10,7 +10,7 @@
            http://www.springframework.org/schema/jee
            http://www.springframework.org/schema/jee/spring-jee-4.1.xsd">
 
-	<http auto-config="true">
+	<http auto-config="true" use-expressions="true">
 		<!-- intercept-url pattern="/admin/**" access="ROLE_ADMIN,IS_AUTHENTICATED_FULLY" /-->
 		<intercept-url pattern="/admin/**" access="ROLE_ADMIN" />
 		<form-login login-page="/login.do" default-target-url="/index.do"/>
