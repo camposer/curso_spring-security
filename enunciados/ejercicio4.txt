@@ -1,0 +1,6 @@
+Ejercicio 4
+===========
+
+1.- Cambiar seguridad de grano fino en WEB-INF/jsps/admin/index.jsp para que utilice etiquetas personalizadas. Debe hacerlo con spEL y garantizar que el resto de la seguridad funciona en el sitio (especial atención a la propiedad access del intercept-url). Valide dirección IP (localhost) además del Rol
+2.- Agregar seguridad a nivel de métodos (con spring). Securice el método obtenerTodos del todoService para que sólo los usuarios ADMIN puedan acceder.
+
