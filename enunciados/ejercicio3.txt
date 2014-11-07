@@ -1,0 +1,5 @@
+Ejercicio 3
+===========
+
+Configurar un authentication-provider basado en un jdbc-user-service como el mostrado en las diapositivas. 
+NOTA: La configuración del DataSource fue añadida a la carpeta classpath:META-INF
