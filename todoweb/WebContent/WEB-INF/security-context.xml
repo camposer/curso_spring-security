@@ -29,6 +29,6 @@
 		</authentication-provider>
 	</authentication-manager>
 	
-	<jee:jndi-lookup jndi-name="jdbc/tododb" id="tododbDS" resource-ref="true"
-	expected-type="javax.sql.DataSource"/>
+   	<jee:jndi-lookup jndi-name="jdbc/tododb" id="tododbDS" resource-ref="true"
+		expected-type="javax.sql.DataSource"/>
 </beans:beans>
